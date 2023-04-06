@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <div>
+      <div className={styles.home}>
         <h2>Welcome to Sports Manager</h2>
         <div>
         Our platform is designed to provide a comprehensive and user-friendly solution for managing the aspects of an athletic department.
