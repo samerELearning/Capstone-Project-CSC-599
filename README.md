@@ -3,7 +3,13 @@ This course is a stand-alone project course that allows students to integrate th
 
 # Project: Sports Manager Website
 
-This is a web application designed to manage sports teams and events for an athletic department at a university. It allows users to schedule events, manage players, teams, staff, facilities, equipment, uniforms, and import/export data.
+The project is a web application for Athletic Departments to manage all aspects of their operations, including event scheduling, player information, team management,
+league management, staff management, facility management, equipment
+and supply management, uniform management, and more. The system aims to
+provide a streamlined, and user-friendly platform for managing all athletic department
+activities and data. With this system, an athletic department can improve
+efficiency, accuracy, and overall productivity while reducing the time and effort required
+to manage operations manually.
 
 ## Features
 
