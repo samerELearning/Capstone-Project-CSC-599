@@ -29,3 +29,13 @@ nav {
   display: flex;
   align-items: center;
 }
+
+nav h1 {
+  margin-left: 10px;
+}
+
+nav ul {
+  margin-left: auto;
+  list-style-type: none;
+  padding: 0;
+}
