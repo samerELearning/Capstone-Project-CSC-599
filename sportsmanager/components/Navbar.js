@@ -8,8 +8,8 @@ export default function Navbar() {
         <Image src="/logo.png" alt='sports manager' width={50} height={48} />
         <h1>Sports Manager</h1>
         <ul>
-          <li><Link href="/"><a>Home</a></Link></li>
-          <li><Link href="/Solutions"><a>Solutions</a></Link></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/Solutions">Solutions</Link></li>
         </ul>
       </nav>
       <div className="banner">
