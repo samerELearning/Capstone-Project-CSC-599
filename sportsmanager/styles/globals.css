@@ -44,3 +44,7 @@ nav li {
   display: inline-block;
   margin-left: 16px;
 }
+
+img {
+  border-radius: 25px;
+}

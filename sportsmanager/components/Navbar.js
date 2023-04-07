@@ -9,7 +9,7 @@ export default function Navbar() {
         <h1>Sports Manager</h1>
         <ul>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/Solutions">Solutions</Link></li>
+          <li><Link href="/solutions">Solutions</Link></li>
         </ul>
       </nav>
       <div className="banner">
