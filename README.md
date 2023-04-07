@@ -30,6 +30,7 @@ to manage operations manually.
 - CSS3
 - JavaScript
 - Next.js
+- Netlify Identity
 
 ## Getting Started
 
