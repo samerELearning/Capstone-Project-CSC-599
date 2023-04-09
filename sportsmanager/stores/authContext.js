@@ -6,3 +6,11 @@ const AuthContext = createContext({
     logout: () => {},
     authReady: false
 })
+
+export const AuthContextProvider = ({ children }) => {
+    return (
+        <AuthContext.Provider>
+            { children }
+        </AuthContext.Provider>
+    )
+}
