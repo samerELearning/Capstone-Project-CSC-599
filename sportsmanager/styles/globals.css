@@ -57,3 +57,8 @@ nav li.btn {
   color: var(--primary);
   cursor: pointer;
 }
+
+nav li.btn:hover {
+  color: white;
+  background: var(--primary);
+}
