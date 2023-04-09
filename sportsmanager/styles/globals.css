@@ -48,3 +48,12 @@ nav li {
 img {
   border-radius: 25px;
 }
+
+nav li.btn {
+  padding: 10px 16px;
+  border: 2px solid var(--primary);
+  border-radius: 30px;
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+}
