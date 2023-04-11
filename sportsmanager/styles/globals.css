@@ -64,7 +64,7 @@ nav li.btn:hover {
 }
 
 nav li.tab:hover {
-  border-bottom: 4px groove;
+  border-bottom: groove;
 }
 
 nav li.full-name {
