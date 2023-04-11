@@ -63,7 +63,12 @@ nav li.btn:hover {
   background: var(--primary);
 }
 
-nav li:hover {
-  font-weight: bold;
+nav li.tab:hover {
+  border-bottom: 4px groove;
 }
 
+nav li.full-name {
+  text-transform: uppercase;
+  padding: 4px;
+  font-weight: bold;
+}
