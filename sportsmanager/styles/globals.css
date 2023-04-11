@@ -63,3 +63,7 @@ nav li.btn:hover {
   background: var(--primary);
 }
 
+nav li:hover {
+  font-weight: bold;
+}
+
