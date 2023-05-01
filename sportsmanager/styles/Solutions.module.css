@@ -4,3 +4,14 @@
     letter-spacing: 1px;
     line-height: 1.6em; 
   }
+
+  .sol {
+    border: solid;
+    list-style: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+
+  .info {
+    padding-left: 10px;
+  }
