@@ -15,3 +15,8 @@
   .info {
     padding-left: 10px;
   }
+
+  .sol:hover {
+    border-color: #166ae8;
+    color: #166ae8;
+  }
