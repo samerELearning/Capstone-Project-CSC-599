@@ -19,4 +19,5 @@
   .sol:hover {
     border-color: #166ae8;
     color: #166ae8;
+    cursor: pointer;
   }
