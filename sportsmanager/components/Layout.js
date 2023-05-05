@@ -6,12 +6,12 @@ import Navbr from "./Navbr"
 export default function Layout() {
     return (
         <>
-            <div id="addEmployeeModal" classNameName="modal fade">
-                <div classNameName="modal-dialog">
+            <div id="addEmployeeModal" className="modal fade">
+                <div className="modal-dialog">
                     <div className="modal-content">
                         <form>
-                            <div classNameName="modal-header">						
-                                <h4 classNameName="modal-title">Add Employee</h4>
+                            <div className="modal-header">						
+                                <h4 className="modal-title">Add Employee</h4>
                                 <button type="button" className="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                             </div>
                             <div className="modal-body">					
