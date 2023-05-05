@@ -9,7 +9,7 @@ export default function Layout() {
             <div id="addEmployeeModal" classNameName="modal fade">
                 <div classNameName="modal-dialog">
                     <div className="modal-content">
-                        <form action = "#" method = "POST" >
+                        <form>
                             <div classNameName="modal-header">						
                                 <h4 classNameName="modal-title">Add Employee</h4>
                                 <button type="button" className="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -36,7 +36,7 @@ export default function Layout() {
             <div id="editEmployeeModal" className="modal fade">
                 <div className="modal-dialog">
                     <div className="modal-content">
-                        <form action = "#" method = "POST">
+                        <form>
                             <div className="modal-header">						
                                 <h4 className="modal-title">Edit Employee</h4>
                                 <button type="button" className="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -62,7 +62,15 @@ export default function Layout() {
                 </div>
             </div>
             <div className="container-xl">
-	            <div className="table-responsive d-flex flex-column"></div>
+	            <div className="table-responsive d-flex flex-column">
+                    <Alert/>
+                    <div className="table-wrapper">
+                        <Navbr/>
+                        <UsersTable/>
+                        <Pagination/>
+                        
+                    </div>
+                </div>
             </div>
         </>
     )
