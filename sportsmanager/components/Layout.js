@@ -1,62 +1,68 @@
+import Alert from "./Alert"
+import UsersTable from "./UsersTable"
+import Pagination from "./Pagination"
+import Navbr from "./Navbr"
+
 export default function Layout() {
     return (
         <>
-            <div id="addEmployeeModal" class="modal fade">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div id="addEmployeeModal" classNameName="modal fade">
+                <div classNameName="modal-dialog">
+                    <div className="modal-content">
                         <form action = "#" method = "POST" >
-                            <div class="modal-header">						
-                                <h4 class="modal-title">Add Employee</h4>
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <div classNameName="modal-header">						
+                                <h4 classNameName="modal-title">Add Employee</h4>
+                                <button type="button" className="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                             </div>
-                            <div class="modal-body">					
-                                <div class="form-group">
+                            <div className="modal-body">					
+                                <div className="form-group">
                                     <label>Name</label>
-                                    <input type="text" class="form-control" name="username" required></input>
+                                    <input type="text" className="form-control" name="username" required></input>
                                 </div>
-                                <div class="form-group">
+                                <div className="form-group">
                                     <label>Email</label>
-                                    <input type="email" class="form-control" name="email" required></input>
+                                    <input type="email" className="form-control" name="email" required></input>
                                 </div>				
                             </div>
-                            <div class="modal-footer">
-                                <input type="button" class="btn btn-default" name="submit" data-dismiss="modal" value="Cancel"/>
-                                <input type="submit" class="btn btn-success" value="Add"/>
+                            <div className="modal-footer">
+                                <input type="button" className="btn btn-default" name="submit" data-dismiss="modal" value="Cancel"/>
+                                <input type="submit" className="btn btn-success" value="Add"/>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
             {/*<!-- Edit Modal HTML -->*/}
-            <div id="editEmployeeModal" class="modal fade">
-                <div class="modal-dialog">
-                    <div class="modal-content">
+            <div id="editEmployeeModal" className="modal fade">
+                <div className="modal-dialog">
+                    <div className="modal-content">
                         <form action = "#" method = "POST">
-                            <div class="modal-header">						
-                                <h4 class="modal-title">Edit Employee</h4>
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <div className="modal-header">						
+                                <h4 className="modal-title">Edit Employee</h4>
+                                <button type="button" className="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                             </div>
-                            <div class="modal-body">
-                                <input type="hidden" name="updateId" class = "updateId" ></input>				
-                                <div class="form-group">
+                            <div className="modal-body">
+                                <input type="hidden" name="updateId" className = "updateId" ></input>				
+                                <div className="form-group">
                                     <label>Name</label>
-                                    <input type="text" class="form-control updateUsername" name = "username" required></input>
+                                    <input type="text" className="form-control up
+                                    dateUsername" name = "username" required></input>
                                 </div>
-                                <div class="form-group">
+                                <div className="form-group">
                                     <label>password</label>
-                                    <input type="text" class="form-control updatePassword" name = "password"  required></input>
+                                    <input type="text" className="form-control updatePassword" name = "password"  required></input>
                                 </div>			
                             </div>
-                            <div class="modal-footer">
-                                <input type="button" name = "submit" class="btn btn-default" data-dismiss="modal" value="Cancel"/>
-                                <input type="submit" class="btn btn-info" value="Save"/>
+                            <div className="modal-footer">
+                                <input type="button" name = "submit" className="btn btn-default" data-dismiss="modal" value="Cancel"/>
+                                <input type="submit" className="btn btn-info" value="Save"/>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="container-xl">
-	            <div class="table-responsive d-flex flex-column"></div>
+            <div className="container-xl">
+	            <div className="table-responsive d-flex flex-column"></div>
             </div>
         </>
     )
