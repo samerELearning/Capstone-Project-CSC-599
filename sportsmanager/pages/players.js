@@ -20,7 +20,7 @@ export default function players() {
             <main>
                 <Layout/>
             </main>
-            Test
+            
         </>
     )
 }
