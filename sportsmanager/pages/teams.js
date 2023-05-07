@@ -96,7 +96,103 @@ export default function teams() {
 					            </div>
 				            </div>
 			            </div>
-                        <UsersTable/>
+                        <table className="table table-striped table-hover">
+				<thead>
+					<tr>
+						<th>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="selectAll"></input>
+								<label for="selectAll"></label>
+							</span>
+						</th>
+						<th>Name</th>
+						<th>Sport</th>
+						<th>Capacity</th>
+						<th>Facility</th>
+						<th>Level</th>
+						<th>Coach</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Lakers</td>
+						<td>BasketBall</td>
+						<td>22</td>
+						<td>Location1</td>
+						<td>A</td>
+						<td>Phill</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Birds</td>
+						<td>Hockey</td>
+						<td>15</td>
+						<td>Location2</td>
+						<td>B</td>
+						<td>John</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Team3</td>
+						<td>Sport3</td>
+						<td>30</td>
+						<td>Location3</td>
+						<td>C</td>
+						<td>Coach3</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Team4</td>
+						<td>Sport4</td>
+						<td>15</td>
+						<td>Location4</td>
+						<td>A</td>
+						<td>Coach4</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
                         <Pagination/>
                         
                     </div>
