@@ -96,7 +96,103 @@ export default function staffs() {
 					            </div>
 				            </div>
 			            </div>
-                        <UsersTable/>
+                        <table className="table table-striped table-hover">
+				<thead>
+					<tr>
+						<th>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="selectAll"></input>
+								<label for="selectAll"></label>
+							</span>
+						</th>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Id</th>
+						<th>Position</th>
+						<th>Campus</th>
+						<th>Hire date</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Employee1</td>
+						<td>Employee1@lau.edu</td>
+						<td>202001460</td>
+						<td>Manager</td>
+						<td>Byblos</td>
+						<td>01/12/2020</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Employee2</td>
+						<td>Employee2@lau.edu</td>
+						<td>202101460</td>
+						<td>Coach</td>
+						<td>Beirut</td>
+						<td>4/07/2021</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Employee3</td>
+						<td>Employee3@lau.edu</td>
+						<td>202302450</td>
+						<td>Position3</td>
+						<td>Byblos</td>
+						<td>7/01/2023</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Employee4</td>
+						<td>Employee4@lau.edu</td>
+						<td>201439450</td>
+						<td>Postition4</td>
+						<td>Beirut</td>
+						<td>01/01/2014</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
                         <Pagination/>
                         
                     </div>
