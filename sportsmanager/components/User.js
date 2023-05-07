@@ -5,7 +5,7 @@ export default function User() {
 			<td>
 				<span className="custom-checkbox">
 					<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
-					<label for="data_checkbox"></label>
+					<label htmlFor="data_checkbox"></label>
 				</span>
 			</td>
 			<td>Anand Raj</td>

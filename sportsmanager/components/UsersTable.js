@@ -7,7 +7,7 @@ export default function UsersTable() {
 						<th>
 							<span className="custom-checkbox">
 								<input type="checkbox" id="selectAll"></input>
-								<label for="selectAll"></label>
+								<label htmlFor="selectAll"></label>
 							</span>
 						</th>
 						<th>Name</th>
@@ -25,7 +25,7 @@ export default function UsersTable() {
 						<td>
 							<span className="custom-checkbox">
 								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
-								<label for="data_checkbox"></label>
+								<label htmlFor="data_checkbox"></label>
 							</span>
 						</td>
 						<td>Student1</td>
@@ -44,7 +44,7 @@ export default function UsersTable() {
 						<td>
 							<span className="custom-checkbox">
 								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
-								<label for="data_checkbox"></label>
+								<label htmlFor="data_checkbox"></label>
 							</span>
 						</td>
 						<td>Student2</td>
@@ -63,7 +63,7 @@ export default function UsersTable() {
 						<td>
 							<span className="custom-checkbox">
 								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
-								<label for="data_checkbox"></label>
+								<label htmlFor="data_checkbox"></label>
 							</span>
 						</td>
 						<td>Student3</td>
@@ -82,7 +82,7 @@ export default function UsersTable() {
 						<td>
 							<span className="custom-checkbox">
 								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
-								<label for="data_checkbox"></label>
+								<label htmlFor="data_checkbox"></label>
 							</span>
 						</td>
 						<td>Student4</td>
