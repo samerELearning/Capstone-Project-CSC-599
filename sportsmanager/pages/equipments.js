@@ -96,7 +96,103 @@ export default function equipments() {
 					            </div>
 				            </div>
 			            </div>
-                        <UsersTable/>
+                        <table className="table table-striped table-hover">
+				<thead>
+					<tr>
+						<th>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="selectAll"></input>
+								<label for="selectAll"></label>
+							</span>
+						</th>
+						<th>Name</th>
+						<th>Code</th>
+						<th>Manufacturer</th>
+						<th>Model</th>
+						<th>Cost</th>
+						<th>Quantity</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Basketball</td>
+						<td>BSKT001</td>
+						<td>Spalding</td>
+						<td>NBA Official Game Ball</td>
+						<td>25$</td>
+						<td>15</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Equipment2</td>
+						<td>Code2</td>
+						<td>Manufacturer2</td>
+						<td>Model2</td>
+						<td>Cost2</td>
+						<td>Quantity2</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Equipment3</td>
+						<td>Code3</td>
+						<td>Manufacturer3</td>
+						<td>Model3</td>
+						<td>Cost3</td>
+						<td>Quantity3</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+					<tr>
+                        <input type="hidden" id="userId" name="id" value = "" ></input>
+						<td>
+							<span className="custom-checkbox">
+								<input type="checkbox" id="data_checkbox" className="data_checkbox" name="data_checkbox" value=""></input>
+								<label for="data_checkbox"></label>
+							</span>
+						</td>
+						<td>Equipment4</td>
+						<td>Code4</td>
+						<td>Manufacturer4</td>
+						<td>Model4</td>
+						<td>Cost4</td>
+						<td>Quantity4</td>
+						<td>
+							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
                         <Pagination/>
                         
                     </div>
