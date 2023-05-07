@@ -142,12 +142,12 @@ export default function facilities() {
 								<label for="data_checkbox"></label>
 							</span>
 						</td>
-						<td>Student2</td>
-						<td>Student2@lau.edu</td>
-						<td>202101460</td>
-						<td>Table Tennis</td>
-						<td>A</td>
-						<td>S</td>
+						<td>Facility2</td>
+						<td>Location2</td>
+						<td>Byblos</td>
+						<td>Sport2</td>
+						<td>Indoor</td>
+						<td>abcdbuilding@email.com</td>
 						<td>
 							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
 							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
@@ -161,12 +161,12 @@ export default function facilities() {
 								<label for="data_checkbox"></label>
 							</span>
 						</td>
-						<td>Student3</td>
-						<td>Student3@lau.edu</td>
-						<td>202302450</td>
-						<td>Football</td>
-						<td>A</td>
-						<td>L</td>
+						<td>Facility3</td>
+						<td>Location3</td>
+						<td>Byblos</td>
+						<td>Sport3</td>
+						<td>Indoor</td>
+						<td>abbuilding@email.com</td>
 						<td>
 							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
 							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
@@ -180,12 +180,12 @@ export default function facilities() {
 								<label for="data_checkbox"></label>
 							</span>
 						</td>
-						<td>Student4</td>
-						<td>Student4@lau.edu</td>
-						<td>201439450</td>
-						<td>basketball</td>
-						<td>B</td>
-						<td>XL</td>
+						<td>Facility4</td>
+						<td>Location4</td>
+						<td>Byblos</td>
+						<td>Sport4</td>
+						<td>Indoor</td>
+						<td>abuilding@email.com</td>
 						<td>
 							<a href="#editEmployeeModal" className="edit" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
 							<a href="#deleteEmployeeModal" className="delete" data-toggle="modal"><i className="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
