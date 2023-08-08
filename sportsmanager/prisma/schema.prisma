@@ -8,8 +8,62 @@ datasource db {
   relationMode = "prisma"
 }
 
-model user {
+model player {
   id        Int      @id @default(autoincrement())
   username  String   @db.VarChar(250)
   email     String   @db.VarChar(250)
+  lauId     String   @db.VarChar(250)
+  sport     String   @db.VarChar(250)
+  team      String   @db.VarChar(250)
+  size      String   @db.VarChar(250)
+}
+
+model team {
+  id        Int      @id @default(autoincrement())
+  username  String   @db.VarChar(250)
+  sport     String   @db.VarChar(250)
+  capacity  String   @db.VarChar(250)
+  facility  String   @db.VarChar(250)
+  level     String   @db.VarChar(250)
+  coach     String   @db.VarChar(250)
+}
+
+model staff {
+  id        Int      @id @default(autoincrement())
+  username  String   @db.VarChar(250)
+  email     String   @db.VarChar(250)
+  lauId     String   @db.VarChar(250)
+  position  String   @db.VarChar(250)
+  campus    String   @db.VarChar(250)
+  date      String   @db.VarChar(250)
+}
+
+model facility {
+  id        Int      @id @default(autoincrement())
+  username  String   @db.VarChar(250)
+  location  String   @db.VarChar(250)
+  campus    String   @db.VarChar(250)
+  sport     String   @db.VarChar(250)
+  type      String   @db.VarChar(250)
+  contact   String   @db.VarChar(250)
+}
+
+model equipment {
+  id        Int      @id @default(autoincrement())
+  username  String   @db.VarChar(250)
+  code      String   @db.VarChar(250)
+  manufa    String   @db.VarChar(250)
+  model     String   @db.VarChar(250)
+  cost      String   @db.VarChar(250)
+  quantity  String   @db.VarChar(250)
+}
+
+model uniform {
+  id        Int      @id @default(autoincrement())
+  sport     String   @db.VarChar(250)
+  code      String   @db.VarChar(250)
+  range     String   @db.VarChar(250)
+  color     String   @db.VarChar(250)
+  quantity  String   @db.VarChar(250)
+  cost      String   @db.VarChar(250)
 }

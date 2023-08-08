@@ -30,12 +30,28 @@ export default function uniforms() {
                             </div>
                             <div className="modal-body">					
                                 <div className="form-group">
-                                    <label>Name</label>
-                                    <input type="text" className="form-control" name="username" required></input>
+                                    <label>Sport</label>
+                                    <input type="text" className="form-control" name="sport" required></input>
                                 </div>
                                 <div className="form-group">
-                                    <label>Email</label>
-                                    <input type="email" className="form-control" name="email" required></input>
+                                    <label>Code</label>
+                                    <input type="text" className="form-control" name="code" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Size Range</label>
+                                    <input type="text" className="form-control" name="sizerange" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Color</label>
+                                    <input type="text" className="form-control" name="color" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Quantity</label>
+                                    <input type="number" className="form-control" name="color" min={0} required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Cost</label>
+                                    <input type="number" className="form-control" name="code" min={0} required></input>
                                 </div>				
                             </div>
                             <div className="modal-footer">

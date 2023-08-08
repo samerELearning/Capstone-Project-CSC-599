@@ -34,8 +34,24 @@ export default function facilities() {
                                     <input type="text" className="form-control" name="username" required></input>
                                 </div>
                                 <div className="form-group">
-                                    <label>Email</label>
-                                    <input type="email" className="form-control" name="email" required></input>
+                                    <label>Location</label>
+                                    <input type="text" className="form-control" name="location" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Campus</label>
+                                    <input type="text" className="form-control" name="campus" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Sport</label>
+                                    <input type="text" className="form-control" name="sport" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Type</label>
+                                    <input type="text" className="form-control" name="type" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Contact</label>
+                                    <input type="text" className="form-control" name="contact" required></input>
                                 </div>				
                             </div>
                             <div className="modal-footer">

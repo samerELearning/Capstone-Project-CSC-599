@@ -34,9 +34,27 @@ export default function teams() {
                                     <input type="text" className="form-control" name="username" required></input>
                                 </div>
                                 <div className="form-group">
-                                    <label>Email</label>
-                                    <input type="email" className="form-control" name="email" required></input>
-                                </div>				
+                                    <label>Sport</label>
+                                    <input type="text" className="form-control" name="sport" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Capacity</label>
+                                    <input type="number" className="form-control" name="capacity" min={0} required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Facility</label>
+                                    <input type="text" className="form-control" name="facility" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Level</label>
+                                    <input type="text" className="form-control" name="level" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Coach</label>
+                                    <input type="text" className="form-control" name="coach" required></input>
+                                </div>
+								
+												
                             </div>
                             <div className="modal-footer">
                                 <input type="button" className="btn btn-default" name="submit" data-dismiss="modal" value="Cancel"/>

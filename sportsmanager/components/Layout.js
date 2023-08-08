@@ -2,8 +2,13 @@ import Alert from "./Alert"
 import UsersTable from "./UsersTable"
 import Pagination from "./Pagination"
 import Navbr from "./Navbr"
+import AppContext from "@/context/appContext"
+import { useContext } from "react"
 
 export default function Layout() {
+
+    const value = useContext(AppContext);
+
     return (
         <>
             <div id="addEmployeeModal" className="modal fade">
@@ -22,6 +27,22 @@ export default function Layout() {
                                 <div className="form-group">
                                     <label>Email</label>
                                     <input type="email" className="form-control" name="email" required></input>
+                                </div>
+                                <div className="form-group">
+                                    <label>Id</label>
+                                    <input type="text" className="form-control" name="id" required></input>
+                                </div>
+                                <div className="form-group">
+                                    <label>Sport</label>
+                                    <input type="text" className="form-control" name="sport" required></input>
+                                </div>
+                                <div className="form-group">
+                                    <label>Team</label>
+                                    <input type="text" className="form-control" name="team" required></input>
+                                </div>
+                                <div className="form-group">
+                                    <label>Size</label>
+                                    <input type="text" className="form-control" name="size" required></input>
                                 </div>				
                             </div>
                             <div className="modal-footer">
@@ -82,7 +103,7 @@ export default function Layout() {
 					            </div>
 				            </div>
 			            </div>
-                        <UsersTable/>
+                        <UsersTable users = {value.users} />
                         <Pagination/>
                         
                     </div>

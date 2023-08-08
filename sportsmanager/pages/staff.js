@@ -36,6 +36,22 @@ export default function staffs() {
                                 <div className="form-group">
                                     <label>Email</label>
                                     <input type="email" className="form-control" name="email" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Id</label>
+                                    <input type="text" className="form-control" name="id" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Position</label>
+                                    <input type="text" className="form-control" name="position" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Campus</label>
+                                    <input type="text" className="form-control" name="campus" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Hire Date</label>
+                                    <input type="date" className="form-control" name="hiredate" required></input>
                                 </div>				
                             </div>
                             <div className="modal-footer">

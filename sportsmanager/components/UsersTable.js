@@ -1,4 +1,21 @@
-export default function UsersTable() {
+import User from "./User"
+
+export default function UsersTable({users}) {
+
+	const userGenerator = () => {
+		return (
+			<>
+			{
+				users.map(user => {
+					return (
+						<User key = {user} user={user} />
+					)
+				})
+			}
+			</>
+		)
+	}
+
     return (
         <>
         <table className="table table-striped table-hover">

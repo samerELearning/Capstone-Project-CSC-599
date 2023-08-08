@@ -34,8 +34,24 @@ export default function equipments() {
                                     <input type="text" className="form-control" name="username" required></input>
                                 </div>
                                 <div className="form-group">
-                                    <label>Email</label>
-                                    <input type="email" className="form-control" name="email" required></input>
+                                    <label>Code</label>
+                                    <input type="text" className="form-control" name="code" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Manufacturer</label>
+                                    <input type="text" className="form-control" name="manufacturer" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Model</label>
+                                    <input type="text" className="form-control" name="model" required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Cost</label>
+                                    <input type="number" className="form-control" name="cost" min={0} required></input>
+                                </div>
+								<div className="form-group">
+                                    <label>Quantity</label>
+                                    <input type="number" className="form-control" name="quantity" min={0} step={1} required></input>
                                 </div>				
                             </div>
                             <div className="modal-footer">

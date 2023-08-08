@@ -13,7 +13,7 @@ const deleteMulti = async (req, res) => {
     try{
         const {ids} = req.body;
 
-        await prisma.user.deleteMany({
+        await prisma.player.deleteMany({
             where : {
                 id : {
                     in : ids
