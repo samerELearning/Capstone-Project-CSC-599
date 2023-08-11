@@ -31,6 +31,7 @@ to manage operations manually.
 - JavaScript
 - Next.js
 - Netlify Identity
+- PlanetScale
 
 ## Getting Started
 
